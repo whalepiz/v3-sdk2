@@ -9,17 +9,10 @@ export const POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3
 /**
  * The default factory enabled fee amounts, denominated in hundredths of bips.
  */
-// export enum FeeAmount {
-//   LOWEST = 80,
-//   LOW = 450,
-//   MEDIUM = 2500,
-//   HIGH = 10000
-// }
-
 export enum FeeAmount {
-  LOWEST = 100,
-  LOW = 500,
-  MEDIUM = 3000,
+  LOWEST = 80,
+  LOW = 450,
+  MEDIUM = 2500,
   HIGH = 10000
 }
 
