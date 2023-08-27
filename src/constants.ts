@@ -2,9 +2,9 @@ export const FACTORY_ADDRESS = '0xbA7e9dB37fB8496F8a23B50d11bD764D34BdEAcf'
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
-export const POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
+// export const POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
 // TODO: This is what I got from parsing the code but may be wrong. Above is Uni's V3 one to try
-// export const POOL_INIT_CODE_HASH = '0xb618a2730fae167f5f8ac7bd659dd8436d571872655bcb6fd11f2158c8a64a3b';
+export const POOL_INIT_CODE_HASH = '0xbb146dec9ccf1c9c5c42c6e0656c2ab950ecfc0c6b935864e63ac10b9ce008a0' // New one after updating fees myself
 
 /**
  * The default factory enabled fee amounts, denominated in hundredths of bips.
