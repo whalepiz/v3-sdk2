@@ -11,7 +11,7 @@ export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
 export const POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
 
-export const POOL_INIT_CODE_HASH_MAP = {
+export const POOL_INIT_CODE_HASH_MAP: { [chainId in ChainId]?: string } = {
   [ChainId.BASE]: POOL_INIT_CODE_HASH,
   [ChainId.SCROLL_SEPOLIA]: '0xe040f12c7cee3904b78f24f8fc395629c2e69525c2815da7a659f7483e378ecb', // fee update, new hash
   [ChainId.SCROLL]: '0xe040f12c7cee3904b78f24f8fc395629c2e69525c2815da7a659f7483e378ecb' // fee update, new hash
